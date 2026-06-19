@@ -1,0 +1,257 @@
+[
+  {
+    "id": "q1",
+    "number": 1,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image1.png",
+    "options": ["Real", "Fake"],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q2",
+    "number": 2,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image2.png",
+    "options": ["Real", "Fake"],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q3",
+    "number": 3,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image3.png",
+    "options": ["Real", "Fake"],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q4",
+    "number": 4,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image4.png",
+    "options": ["Real", "Fake"],
+    "correctAnswer": "Real"
+  },
+  {
+    "id": "q5",
+    "number": 5,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image5.png",
+    "options": ["Real", "Fake"],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q6",
+    "number": 6,
+    "type": "short",
+    "points": 4,
+    "prompt": "What should you do if you see a suspicious SMS with a link?",
+    "idealAnswer": "Read the contents carefully, do not click on the link, delete the SMS, and report it if needed.",
+    "zeroIfContains": ["then click", "open the link"],
+    "keywordGroups": [
+      ["read carefully", "read the contents carefully", "check carefully", "look carefully", "verify", "inspect"],
+      ["do not click", "don't click", "not click", "avoid clicking", "never click"],
+      ["delete", "remove", "report", "block", "screenshot", "save evidence"]
+    ]
+  },
+  {
+    "id": "q7",
+    "number": 7,
+    "type": "short",
+    "points": 4,
+    "prompt": "What should you do if a suspicious pop-up is still open on your screen?",
+    "idealAnswer": "Do not click or close it. Take a screenshot, disconnect from the internet if needed, and report it to IT or security staff.",
+    "zeroIfContains": ["close the pop-up immediately", "continue using the computer", "click the pop-up"],
+    "keywordGroups": [
+      ["do not click", "don't click", "not click", "do not close", "don't close"],
+      ["screenshot", "screen shot", "capture"],
+      ["disconnect", "internet", "report", "it staff", "security staff"]
+    ]
+  },
+  {
+    "id": "q8",
+    "number": 8,
+    "type": "short",
+    "points": 4,
+    "prompt": "What should you do if your computer mouse is moving on its own, or programs are opening by themselves without you touching anything?",
+    "idealAnswer": "Stop using the computer immediately, do not type passwords, disconnect from the internet, and report it to a family member or IT/security staff.",
+    "zeroIfContains": ["don't worry", "do not worry", "just updating", "continue using it normally", "continue using normally"],
+    "keywordGroups": [
+      ["stop using", "stop immediately", "stop"],
+      ["do not type", "don't type", "not type", "password", "passwords"],
+      ["disconnect", "unplug", "turn off wifi", "report", "security staff", "it staff"]
+    ]
+  },
+  {
+    "id": "q9",
+    "number": 9,
+    "type": "short",
+    "points": 4,
+    "prompt": "You accidentally open a website that looks like a bank login page, but the website address looks strange. What should you do first?",
+    "idealAnswer": "Do not enter usernames, passwords, OTPs, or personal details. Do not click anything else. Take a screenshot with the address, content, date, and time, keep the page open if safe, disconnect if needed, and report it.",
+    "zeroIfContains": ["continue entering", "entering your username", "enter your username", "enter password", "looks like a bank website"],
+    "keywordGroups": [
+      ["do not enter", "don't enter", "not enter", "password", "otp", "personal details"],
+      ["do not click", "don't click", "not click", "avoid clicking"],
+      ["screenshot", "website address", "url", "disconnect", "report"]
+    ]
+  },
+  {
+    "id": "q10",
+    "number": 10,
+    "type": "short",
+    "points": 4,
+    "prompt": "You receive an email claiming that your account has been locked and asks you to download an attachment to verify your identity. What should you do?",
+    "idealAnswer": "Do not download or open the attachment. Verify the sender, take a screenshot, keep the email as evidence, report it, and contact the real service provider through official channels.",
+    "zeroIfContains": ["download and open", "open the attachment immediately", "download the attachment", "unlock your account"],
+    "keywordGroups": [
+      ["do not download", "don't download", "not download", "do not open", "don't open", "attachment"],
+      ["verify", "sender", "official website", "official phone", "official channel"],
+      ["screenshot", "keep the email", "evidence", "report"]
+    ]
+  },
+  {
+    "id": "q11",
+    "number": 11,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Which evidence is MOST important to save from a suspicious WhatsApp message?",
+    "options": ["A. Profile picture of the sender", "B. Screenshot of the message", "C. Contact name saved in your phone", "D. Your phone model"],
+    "correctAnswer": "B. Screenshot of the message"
+  },
+  {
+    "id": "q12",
+    "number": 12,
+    "type": "choice",
+    "points": 4,
+    "prompt": "When buying an item online, which information is MOST useful if you need to make a report later?",
+    "options": ["A. Seller's bank account number", "B. Number of likes on the advertisement", "C. Product color", "D. Seller's profile picture"],
+    "correctAnswer": "A. Seller's bank account number"
+  },
+  {
+    "id": "q13",
+    "number": 13,
+    "type": "choice",
+    "points": 4,
+    "prompt": "You receive a suspicious phone call from someone claiming to be a bank officer. Which evidence should you save first?",
+    "options": ["A. Incoming phone number", "B. Battery percentage of your phone", "C. Color of the caller's logo", "D. Time you woke up that day"],
+    "correctAnswer": "A. Incoming phone number"
+  },
+  {
+    "id": "q14",
+    "number": 14,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Why should evidence be collected before deleting a suspicious message?",
+    "options": ["A. To make your phone faster", "B. To share it on social media", "C. To help in investigation if needed later", "D. To increase phone storage"],
+    "correctAnswer": "C. To help in investigation if needed later"
+  },
+  {
+    "id": "q15",
+    "number": 15,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Which of the following is the BEST example of digital evidence?",
+    "options": ["A. Chat screenshot", "B. Mobile phone case", "C. Coffee mug beside the phone", "D. Table calendar"],
+    "correctAnswer": "A. Chat screenshot"
+  },
+  {
+    "id": "q16",
+    "number": 16,
+    "type": "choice",
+    "points": 4,
+    "prompt": "If a message is deleted from a phone app, it can never be used as evidence again.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q17",
+    "number": 17,
+    "type": "choice",
+    "points": 4,
+    "prompt": "A photo says it was taken at 10:00 PM, so it must have been taken at 10:00 PM.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q18",
+    "number": 18,
+    "type": "choice",
+    "points": 4,
+    "prompt": "If a phone is encrypted, investigators can never get any evidence from it.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q19",
+    "number": 19,
+    "type": "choice",
+    "points": 4,
+    "prompt": "If someone deletes a file and then saves many new files, the deleted file may be harder to recover.",
+    "options": ["True", "False"],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "q20",
+    "number": 20,
+    "type": "choice",
+    "points": 4,
+    "prompt": "GPS records, call logs, and chat records all match each other, but the photo time is different. The photo time is probably the most trustworthy clue.",
+    "options": ["True", "False"],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q21",
+    "number": 21,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Auntie Lim lost RM2,000 in an online scam.\n\nReport A\nI was scammed and lost RM2,000. I felt very shocked and disappointed because I worked hard to save this money. The incident caused me a lot of stress and I could not sleep well. I hope the authorities can help me recover my money and catch the scammer as soon as possible.\n\nReport B\nOn 20 June 2026 at 10:30 AM, I received a WhatsApp message from 012-3456789 claiming to be from my bank. I clicked the link and transferred RM2,000. Screenshots and the transaction receipt are attached.\n\nWhich report is more complete?",
+    "options": ["A. Report A", "B. Report B", "C. Both reports are equally complete", "D. Neither report is complete"],
+    "correctAnswer": "B. Report B"
+  },
+  {
+    "id": "q22",
+    "number": 22,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Which information should come first in a cybercrime report?",
+    "options": ["A. Personal opinions; Evidence; What happened", "B. What happened; Date & Time; Contact details; Supporting evidence", "C. Amount lost; Favourite website; Occupation", "D. Evidence; Personal feelings; Suggestions"],
+    "correctAnswer": "B. What happened; Date & Time; Contact details; Supporting evidence"
+  },
+  {
+    "id": "q23",
+    "number": 23,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Before submitting a cybercrime report to the Police, MCMC, CCID, or Cyber999, what should be checked FIRST?",
+    "options": ["A. Whether the report is at least one page long", "B. Whether the report uses formal English", "C. Whether the report contains sufficient details and supporting evidence", "D. Whether the report is typed in a specific font"],
+    "correctAnswer": "C. Whether the report contains sufficient details and supporting evidence"
+  },
+  {
+    "id": "q24",
+    "number": 24,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Two victims submitted reports after losing RM3,000 in an online scam.\n\nReport A\nDate & Time\nScammer's phone number\nDescription of the incident\nAmount lost\n\nReport B\nDate & Time\nDescription of the incident\nScreenshot of the scam message\nTransfer receipt\n\nWhich report would be more helpful for investigators?",
+    "options": ["A. Report A", "B. Report B", "C. Both reports are equally helpful", "D. Neither report is useful"],
+    "correctAnswer": "B. Report B"
+  },
+  {
+    "id": "q25",
+    "number": 25,
+    "type": "choice",
+    "points": 4,
+    "prompt": "A victim wrote the following report:\n\nOn 20 June 2026 at 10:30 AM, I received a scam message and lost RM2,000.\n\nWhich missing detail would MOST strengthen this report?",
+    "options": ["A. The scammer's phone number", "B. Screenshots of the conversation and transaction receipt", "C. A detailed explanation of how the victim felt after the incident", "D. The victim's occupation"],
+    "correctAnswer": "B. Screenshots of the conversation and transaction receipt"
+  }
+]

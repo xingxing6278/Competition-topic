@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Live Evidence Quiz</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Live Competition</p>
+        <h1>Evidence Quiz</h1>
+      </div>
+      <nav class="nav" aria-label="Main navigation">
+        <button data-view="quiz" class="nav-button">Quiz</button>
+        <button data-view="leaderboard" class="nav-button">Leaderboard</button>
+        <button data-view="admin" class="nav-button">Admin</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="quizView" class="view"></section>
+      <section id="leaderboardView" class="view"></section>
+      <section id="adminView" class="view"></section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js?v=20260620-delete-and-strict-short"></script>
+  </body>
+</html>
