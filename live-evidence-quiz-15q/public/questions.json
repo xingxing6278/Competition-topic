@@ -1,0 +1,197 @@
+[
+  {
+    "id": "q1",
+    "number": 1,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image1.png",
+    "options": [
+      "Real",
+      "Fake"
+    ],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q2",
+    "number": 2,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image2.png",
+    "options": [
+      "Real",
+      "Fake"
+    ],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q3",
+    "number": 3,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image3.png",
+    "options": [
+      "Real",
+      "Fake"
+    ],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q4",
+    "number": 4,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image4.png",
+    "options": [
+      "Real",
+      "Fake"
+    ],
+    "correctAnswer": "Real"
+  },
+  {
+    "id": "q5",
+    "number": 5,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Is this evidence real?",
+    "image": "/images/image5.png",
+    "options": [
+      "Real",
+      "Fake"
+    ],
+    "correctAnswer": "Fake"
+  },
+  {
+    "id": "q11",
+    "number": 6,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Which evidence is MOST important to save from a suspicious WhatsApp message?",
+    "options": [
+      "A. Profile picture of the sender",
+      "B. Screenshot of the message",
+      "C. Contact name saved in your phone",
+      "D. Your phone model"
+    ],
+    "correctAnswer": "B. Screenshot of the message"
+  },
+  {
+    "id": "q12",
+    "number": 7,
+    "type": "choice",
+    "points": 4,
+    "prompt": "When buying an item online, which information is MOST useful if you need to make a report later?",
+    "options": [
+      "A. Seller's bank account number",
+      "B. Number of likes on the advertisement",
+      "C. Product color",
+      "D. Seller's profile picture"
+    ],
+    "correctAnswer": "A. Seller's bank account number"
+  },
+  {
+    "id": "q13",
+    "number": 8,
+    "type": "choice",
+    "points": 4,
+    "prompt": "You receive a suspicious phone call from someone claiming to be a bank officer. Which evidence should you save first?",
+    "options": [
+      "A. Incoming phone number",
+      "B. Battery percentage of your phone",
+      "C. Color of the caller's logo",
+      "D. Time you woke up that day"
+    ],
+    "correctAnswer": "A. Incoming phone number"
+  },
+  {
+    "id": "q14",
+    "number": 9,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Why should evidence be collected before deleting a suspicious message?",
+    "options": [
+      "A. To make your phone faster",
+      "B. To share it on social media",
+      "C. To help in investigation if needed later",
+      "D. To increase phone storage"
+    ],
+    "correctAnswer": "C. To help in investigation if needed later"
+  },
+  {
+    "id": "q15",
+    "number": 10,
+    "type": "choice",
+    "points": 4,
+    "prompt": "Which of the following is the BEST example of digital evidence?",
+    "options": [
+      "A. Chat screenshot",
+      "B. Mobile phone case",
+      "C. Coffee mug beside the phone",
+      "D. Table calendar"
+    ],
+    "correctAnswer": "A. Chat screenshot"
+  },
+  {
+    "id": "q16",
+    "number": 11,
+    "type": "choice",
+    "points": 4,
+    "prompt": "If a message is deleted from a phone app, it can never be used as evidence again.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q17",
+    "number": 12,
+    "type": "choice",
+    "points": 4,
+    "prompt": "A photo says it was taken at 10:00 PM, so it must have been taken at 10:00 PM.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q18",
+    "number": 13,
+    "type": "choice",
+    "points": 4,
+    "prompt": "If a phone is encrypted, investigators can never get any evidence from it.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False"
+  },
+  {
+    "id": "q19",
+    "number": 14,
+    "type": "choice",
+    "points": 4,
+    "prompt": "If someone deletes a file and then saves many new files, the deleted file may be harder to recover.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "True"
+  },
+  {
+    "id": "q20",
+    "number": 15,
+    "type": "choice",
+    "points": 4,
+    "prompt": "GPS records, call logs, and chat records all match each other, but the photo time is different. The photo time is probably the most trustworthy clue.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswer": "False"
+  }
+]
